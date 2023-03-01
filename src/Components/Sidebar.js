@@ -10,44 +10,44 @@ const Sidebar = () => {
         <ul>
           <li className="text-white text-md pb-4">
             <Link to="/">
-              <i class="fa-solid fa-house mr-7 text-white"></i>
+              <i className="fa-solid fa-house mr-7 text-white"></i>
             </Link>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-sharp fa-solid fa-video mr-7 text-white"></i>
+            <i className="fa-sharp fa-solid fa-video mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-square-check mr-7 text-white"></i>
+            <i className="fa-solid fa-square-check mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-sharp fa-solid fa-play mr-7 text-white"></i>
+            <i className="fa-sharp fa-solid fa-play mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-clock mr-7 text-white"></i>
+            <i className="fa-solid fa-clock mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-square-check mr-7 text-white"></i>
+            <i className="fa-solid fa-square-check mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-regular fa-circle-play mr-7 text-white"></i>
+            <i className="fa-regular fa-circle-play mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-thumbs-up mr-7 text-white"></i>
+            <i className="fa-solid fa-thumbs-up mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-fire mr-7 text-white"></i>
+            <i className="fa-solid fa-fire mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-bag-shopping mr-7 text-white"></i>
+            <i className="fa-solid fa-bag-shopping mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-play mr-7 text-white"></i>
+            <i className="fa-solid fa-play mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-music mr-7 text-white"></i>
+            <i className="fa-solid fa-music mr-7 text-white"></i>
           </li>
           <li className="text-white text-md pb-4 ">
-            <i class="fa-solid fa-gamepad mr-7 text-white"></i>
+            <i className="fa-solid fa-gamepad mr-7 text-white"></i>
           </li>
         </ul>
       </div>
@@ -58,47 +58,50 @@ const Sidebar = () => {
       <ul>
         <li className="text-white text-md pb-4">
           <Link to="/">
-            <i class="fa-solid fa-house mr-7 text-white"></i>Home
+            <i className="fa-solid fa-house mr-7 text-white"></i>Home
           </Link>
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-sharp fa-solid fa-video mr-7 text-white"></i>Shorts
+          <i className="fa-sharp fa-solid fa-video mr-7 text-white"></i>Shorts
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-square-check mr-7 text-white"></i>Subscription
+          <i className="fa-solid fa-square-check mr-7 text-white"></i>
+          Subscription
         </li>
         <hr className="mt-1 mb-3 border-gray-500"></hr>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-sharp fa-solid fa-play mr-7 text-white"></i>Library
+          <i className="fa-sharp fa-solid fa-play mr-7 text-white"></i>Library
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-clock mr-7 text-white"></i>History
+          <i className="fa-solid fa-clock mr-7 text-white"></i>History
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-square-check mr-7 text-white"></i>Your Videos
+          <i className="fa-solid fa-square-check mr-7 text-white"></i>Your
+          Videos
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-regular fa-circle-play mr-7 text-white"></i>Watch later
+          <i className="fa-regular fa-circle-play mr-7 text-white"></i>Watch
+          later
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-thumbs-up mr-7 text-white"></i>Liked Videos
+          <i className="fa-solid fa-thumbs-up mr-7 text-white"></i>Liked Videos
         </li>
         <hr className="mt-1 mb-3 border-gray-500"></hr>
         <h3 className="text-white mb-3">Explore</h3>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-fire mr-7 text-white"></i>Trending
+          <i className="fa-solid fa-fire mr-7 text-white"></i>Trending
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-bag-shopping mr-7 text-white"></i>Shopping
+          <i className="fa-solid fa-bag-shopping mr-7 text-white"></i>Shopping
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-play mr-7 text-white"></i>Movies
+          <i className="fa-solid fa-play mr-7 text-white"></i>Movies
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-music mr-7 text-white"></i>Music
+          <i className="fa-solid fa-music mr-7 text-white"></i>Music
         </li>
         <li className="text-white text-md pb-4 ">
-          <i class="fa-solid fa-gamepad mr-7 text-white"></i>Gaming
+          <i className="fa-solid fa-gamepad mr-7 text-white"></i>Gaming
         </li>
       </ul>
     </div>

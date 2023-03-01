@@ -17,7 +17,7 @@ const buttonArray = [
 
 const ButtonList = () => {
   return (
-    <div className="sticky top-16 z-50">
+    <div className="sticky top-16">
       {buttonArray.map((item, k) => (
         <Button key={k} items={item} />
       ))}

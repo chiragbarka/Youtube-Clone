@@ -13,7 +13,7 @@ const VideoContainer = () => {
       .then((res) => setVideos(res.items));
   };
 
-  console.log(videos);
+  // console.log(videos);
 
   useEffect(() => {
     getVideos();
@@ -29,8 +29,8 @@ const VideoContainer = () => {
   return (
     <div className="flex flex-wrap mt-5 hover:overflow-y-auto h-[560px]">
       {videos.map((item) => (
-        <Link to={"/watch?v=" + item.id}>
-          <VideoCard key={item.id} info={item} />
+        <Link key={item.id} to={"/watch?v=" + item.id}>
+          <VideoCard info={item} />
         </Link>
       ))}
     </div>
